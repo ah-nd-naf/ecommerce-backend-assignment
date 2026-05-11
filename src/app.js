@@ -1,10 +1,13 @@
 const express = require('express');
 const app = express();
+const productRoutes = require('./routes/productRoutes');
 
-// Middleware to parse JSON (so we can read request bodies)
+// Middleware to parse JSON
 app.use(express.json());
 
-// Basic Route for testing
+app.use('/api/products', productRoutes);
+
+// Route for testing
 app.get('/', (req, res) => {
   res.send('API is running...');
 });
