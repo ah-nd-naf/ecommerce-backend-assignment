@@ -50,12 +50,12 @@ This is the backend for an E-Commerce application built with Node.js, Express, a
 - **JSON Request Body:**
   ```json
   {
-    "name": "John Doe",
-    "email": "johndoe@example.com",
+    "name": "testing",
+    "email": "test@gmail.com",
     "password": "securepassword123",
-    "age": 25,          // optional
-    "phone": "1234567890", // optional
-    "isAdmin": false    // optional, defaults to false
+    "age": 25,          
+    "phone": "1234567890", 
+    "isAdmin": false    
   }
   ```
 
@@ -65,7 +65,7 @@ This is the backend for an E-Commerce application built with Node.js, Express, a
 - **JSON Request Body:**
   ```json
   {
-    "email": "johndoe@example.com",
+    "email": "test@gmail.com",
     "password": "securepassword123"
   }
   ```
@@ -86,7 +86,7 @@ This is the backend for an E-Commerce application built with Node.js, Express, a
 - **JSON Request Body (include any fields you want to update):**
   ```json
   {
-    "name": "John Doe Updated",
+    "name": "testing Updated",
     "age": 26,
     "phone": "0987654321"
   }
